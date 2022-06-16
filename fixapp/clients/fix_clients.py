@@ -9,7 +9,7 @@ import datetime as dt
 import quickfix as fix
 import quickfix44 as fix44
 
-from fixapp import print0,printv,printvv,printvvv,unicode_fix
+from fixapp import print0, printv, printvv, printvvv, unicode_fix
 
 
 class BaseFixClient(fix.Application):
