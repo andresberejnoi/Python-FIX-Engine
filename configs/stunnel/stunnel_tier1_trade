@@ -1,0 +1,14 @@
+; **************************************************************************
+; * Global options                                                         *
+; **************************************************************************
+
+; Debugging stuff (may be useful for troubleshooting)
+debug = info
+output = stunnel.log
+
+client = yes
+cert =  /etc/stunnel/stunnel.pem
+
+[Tier1FX-Trade]
+accept = localhost:443
+connect = FIXUAT3-TRADE.FORTEX.COM:44303
